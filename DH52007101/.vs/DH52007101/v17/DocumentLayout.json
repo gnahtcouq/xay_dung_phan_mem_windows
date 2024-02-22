@@ -1,14 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\",
+  "WorkspaceRootPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\desktop\\dh52007101\\dh52007101\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\desktop\\dh52007101\\dh52007101\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\migrations\\qlhvcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\migrations\\qlhvcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\qlhvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\qlhvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\lylich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\lylich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\diemthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\diemthi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +58,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "qlhvContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Migrations\\qlhvContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Migrations\\qlhvContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Migrations\\qlhvContextModelSnapshot.cs",
+              "RelativeToolTip": "DH52007101\\Migrations\\qlhvContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:48:25.568Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\DH52007101\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DH52007101\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\DH52007101\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
               "RelativeToolTip": "DH52007101\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-22T06:03:48.946Z",
+              "WhenOpened": "2024-02-22T08:48:07.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DH52007101\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\AssemblyInfo.cs",
+              "RelativeToolTip": "DH52007101\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:47:02.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DH52007101\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\App.xaml.cs",
+              "RelativeToolTip": "DH52007101\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:46:55.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\App.xaml",
+              "RelativeDocumentMoniker": "DH52007101\\App.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\App.xaml",
+              "RelativeToolTip": "DH52007101\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-22T08:46:52.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "qlhvContext.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\qlhvContext.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
+              "RelativeToolTip": "DH52007101\\Models\\qlhvContext.cs",
+              "ViewState": "AQIAAAoAAAAANjMzMzMbwBcAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:49.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Monhoc.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Monhoc.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\Monhoc.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Monhoc.cs",
+              "RelativeToolTip": "DH52007101\\Models\\Monhoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:43.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DH52007101\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
               "RelativeToolTip": "DH52007101\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAmZmZmZkdwDMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T06:03:39.336Z"
+              "WhenOpened": "2024-02-22T06:03:39.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DH52007101\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
+              "RelativeToolTip": "DH52007101\\MainWindow.xaml",
+              "ViewState": "AQIAAA4AAADAZmZmZmYywBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-22T08:46:24.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Diemthi.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Diemthi.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\Diemthi.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Diemthi.cs",
+              "RelativeToolTip": "DH52007101\\Models\\Diemthi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:10.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lop.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lop.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\Lop.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lop.cs",
+              "RelativeToolTip": "DH52007101\\Models\\Lop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:28.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lylich.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lylich.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\Lylich.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lylich.cs",
+              "RelativeToolTip": "DH52007101\\Models\\Lylich.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:38.356Z",
+              "EditorCaption": ""
             }
           ]
         }

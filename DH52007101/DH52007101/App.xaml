@@ -2,8 +2,9 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:DH52007101"
+             xmlns:localModels="clr-namespace:DH52007101.Models"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <localModels:Monhoc x:Key="rsMonhoc"/>
     </Application.Resources>
 </Application>

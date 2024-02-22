@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using DH52007101.Models;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,16 +10,56 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DH52007101
-{
+namespace DH52007101 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
+    public partial class MainWindow : Window {
+        public MainWindow() {
             InitializeComponent();
+        }
+
+        private void hienThi() {
+            qlhvContext db = new qlhvContext();
+            dg.ItemsSource = db.Monhocs.ToList();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e) {
+            hienThi();
+
+        }
+
+        private void btnThem_Click(object sender, RoutedEventArgs e) {
+            qlhvContext db = new qlhvContext();
+            Monhoc x = gridMonhoc.DataContext as Monhoc;
+            if (string.IsNullOrEmpty(x.Msmh) == true) {
+                MessageBox.Show("Mã môn học không được để trống!");
+                return;
+            } else if (string.IsNullOrEmpty(x.Tenmh) == true) {
+                MessageBox.Show("Tên môn học không được để trống!");
+                return;
+            } else if (x.Sotiet == null || x.Sotiet <= 0) {
+                MessageBox.Show("Số tiết không hợp lệ!");
+                return;
+            }
+            db.Monhocs.Add(x);
+            db.SaveChanges();
+            hienThi();
+        }
+
+        private void btnXoa_Click(object sender, RoutedEventArgs e) {
+            qlhvContext db = new qlhvContext();
+            string msmh = dg.SelectedValue.ToString();
+            Monhoc x = db.Monhocs.Find(msmh);
+            if (x != null) {
+                try {
+                    db.Monhocs.Remove(x);
+                    db.SaveChanges();
+                    hienThi();
+                } catch (Exception) {
+                    MessageBox.Show("Không thể xoá môn học '" + x.Msmh + "'!");
+                }
+            }
         }
     }
 }
