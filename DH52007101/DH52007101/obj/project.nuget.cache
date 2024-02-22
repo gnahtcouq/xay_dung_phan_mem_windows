@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RgrttaZplajoZNFC///IR3O2Wiz2au+o4k0I8ntGX5hy8bqDN7LtxU6JaSX79e6kTJy8N8Ryq9WDvHVAMgbeAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\QuocThang\\Desktop\\DH52007101\\DH52007101\\DH52007101.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\QuocThang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\QuocThang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\QuocThang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\QuocThang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
