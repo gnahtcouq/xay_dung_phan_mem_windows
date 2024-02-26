@@ -21,7 +21,7 @@ namespace DH52007101 {
 
         private void hienThi() {
             qlhvContext db = new qlhvContext();
-            dg.ItemsSource = db.Monhocs.ToList();
+            dg.ItemsSource = db.Monhocs.Select(x => CMonhoc.chuyendoi(x)).ToList();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
@@ -31,7 +31,7 @@ namespace DH52007101 {
 
         private void btnThem_Click(object sender, RoutedEventArgs e) {
             qlhvContext db = new qlhvContext();
-            Monhoc x = gridMonhoc.DataContext as Monhoc;
+            CMonhoc x = gridMonhoc.DataContext as CMonhoc;
             if (string.IsNullOrEmpty(x.Msmh) == true) {
                 MessageBox.Show("Mã môn học không được để trống!");
                 return;
@@ -42,7 +42,14 @@ namespace DH52007101 {
                 MessageBox.Show("Số tiết không hợp lệ!");
                 return;
             }
-            db.Monhocs.Add(x);
+
+            if (db.Monhocs.Find(x.Msmh) != null) {
+                MessageBox.Show("Đã tồn tại môn học này trong hệ thống!");
+                return;
+            }
+
+            Monhoc a = CMonhoc.chuyendoi(x);
+            db.Monhocs.Add(a);
             db.SaveChanges();
             hienThi();
         }
@@ -60,6 +67,24 @@ namespace DH52007101 {
                     MessageBox.Show("Không thể xoá môn học '" + x.Msmh + "'!");
                 }
             }
+        }
+
+        private void dg_LoadingRowDetails(object sender, DataGridRowDetailsEventArgs e) {
+            Grid gr = e.DetailsElement.FindName("gridMonhoc") as Grid;
+            CMonhoc x = CMonhoc.saochep(dg.SelectedItem as CMonhoc);
+            gr.DataContext = x;
+        }
+
+        private void btnSua_Click(object sender, RoutedEventArgs e) {
+            qlhvContext db = new qlhvContext();
+            Button btn = sender as Button;
+            Grid gr = btn.Parent as Grid;
+            CMonhoc x = gr.DataContext as CMonhoc;
+            Monhoc a = CMonhoc.chuyendoi(x);
+
+            db.Monhocs.Update(a);
+            db.SaveChanges();
+            hienThi();
         }
     }
 }

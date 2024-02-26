@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DH52007101"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="MainWindow" Height="800" Width="800" Loaded="Window_Loaded">
     <StackPanel>
         <Label Content="Quản lý môn học" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold"/>
         <Grid x:Name="gridMonhoc" DataContext="{StaticResource rsMonhoc}">
@@ -23,7 +23,7 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            
+
             <TextBlock Grid.Row="0" Grid.Column="1" Text="Mã số môn học"/>
             <TextBlock Grid.Row="1" Grid.Column="1" Text="Tên môn học"/>
             <TextBlock Grid.Row="2" Grid.Column="1" Text="Số tiết"/>
@@ -33,7 +33,7 @@
             <Button Grid.Row="1" Grid.Column="4" Content="Thêm" x:Name="btnThem" Click="btnThem_Click"/>
         </Grid>
         <Label Content="Danh sách môn học" FontSize="12" FontWeight="Bold"/>
-        <DataGrid x:Name="dg" AutoGenerateColumns="False" SelectedValuePath="Msmh">
+        <DataGrid x:Name="dg" AutoGenerateColumns="False" SelectedValuePath="Msmh" LoadingRowDetails="dg_LoadingRowDetails">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Mã số môn học" Binding="{Binding Msmh}"/>
                 <DataGridTextColumn Header="Tên môn học" Binding="{Binding Tenmh}"/>
@@ -46,6 +46,7 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
+
             <DataGrid.RowDetailsTemplate>
                 <DataTemplate>
                     <Expander>
@@ -70,10 +71,10 @@
                                 <TextBlock Grid.Row="0" Grid.Column="1" Text="Mã số môn học"/>
                                 <TextBlock Grid.Row="1" Grid.Column="1" Text="Tên môn học"/>
                                 <TextBlock Grid.Row="2" Grid.Column="1" Text="Số tiết"/>
-                                <TextBox Grid.Row="0" Grid.Column="2" Height="25" Text="{Binding Msmh}"/>
+                                <TextBox Grid.Row="0" Grid.Column="2" Height="25" IsReadOnly="True" Text="{Binding Msmh}"/>
                                 <TextBox Grid.Row="1" Grid.Column="2" Height="25" Text="{Binding Tenmh}"/>
                                 <TextBox Grid.Row="2" Grid.Column="2" Height="25" Text="{Binding Sotiet}"/>
-                                <Button Grid.Row="1" Grid.Column="4" Content="Sửa" x:Name="btnSua"/>
+                                <Button Grid.Row="1" Grid.Column="4" Content="Sửa" x:Name="btnSua" Click="btnSua_Click"/>
                             </Grid>
                         </StackPanel>
                     </Expander>

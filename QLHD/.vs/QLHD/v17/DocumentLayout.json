@@ -1,0 +1,254 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\ui\\windowhoadon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\ui\\windowhoadon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\modelvm\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\modelvm\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\models\\hoadoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\models\\hoadoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\ui\\windowhanghoa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\ui\\windowhanghoa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\ui\\windowhanghoa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\ui\\windowhanghoa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\modelvm\\cmycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\modelvm\\cmycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\ui\\windowhoadon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\ui\\windowhoadon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Migrations\\20240226061613_qlhd_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLHD\\Migrations\\20240226061613_qlhd_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\qlhd\\qlhd\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F198FF9-340F-4BDF-90CD-0ABEEFCA3B93}|QLHD\\QLHD.csproj|solutionrelative:qlhd\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowHanghoa.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHanghoa.xaml",
+              "RelativeDocumentMoniker": "QLHD\\UI\\WindowHanghoa.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHanghoa.xaml",
+              "RelativeToolTip": "QLHD\\UI\\WindowHanghoa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-26T06:29:44.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\App.xaml",
+              "RelativeDocumentMoniker": "QLHD\\App.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\App.xaml",
+              "RelativeToolTip": "QLHD\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-26T07:00:40.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hanghoa.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Hanghoa.cs",
+              "RelativeDocumentMoniker": "QLHD\\Models\\Hanghoa.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Hanghoa.cs",
+              "RelativeToolTip": "QLHD\\Models\\Hanghoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:09:14.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QLHD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\MainWindow.xaml",
+              "RelativeToolTip": "QLHD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-26T06:01:24.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowHanghoa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHanghoa.xaml.cs",
+              "RelativeDocumentMoniker": "QLHD\\UI\\WindowHanghoa.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHanghoa.xaml.cs",
+              "RelativeToolTip": "QLHD\\UI\\WindowHanghoa.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAZmZmZmYpwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:44:59.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QLHD\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QLHD\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA2wBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:01:16.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowHoadon.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHoadon.xaml.cs",
+              "RelativeDocumentMoniker": "QLHD\\UI\\WindowHoadon.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHoadon.xaml.cs",
+              "RelativeToolTip": "QLHD\\UI\\WindowHoadon.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T07:29:15.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hoadonContext.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\hoadonContext.cs",
+              "RelativeDocumentMoniker": "QLHD\\Models\\hoadonContext.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\hoadonContext.cs",
+              "RelativeToolTip": "QLHD\\Models\\hoadonContext.cs",
+              "ViewState": "AQIAAAkAAABgMzMzMzMxwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T07:30:09.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HanghoaVM.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\ModelVM\\HanghoaVM.cs",
+              "RelativeDocumentMoniker": "QLHD\\ModelVM\\HanghoaVM.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\ModelVM\\HanghoaVM.cs",
+              "RelativeToolTip": "QLHD\\ModelVM\\HanghoaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T07:32:43.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CMyCommands.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\ModelVM\\CMyCommands.cs",
+              "RelativeDocumentMoniker": "QLHD\\ModelVM\\CMyCommands.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\ModelVM\\CMyCommands.cs",
+              "RelativeToolTip": "QLHD\\ModelVM\\CMyCommands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T07:14:08.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WindowHoadon.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHoadon.xaml",
+              "RelativeDocumentMoniker": "QLHD\\UI\\WindowHoadon.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\UI\\WindowHoadon.xaml",
+              "RelativeToolTip": "QLHD\\UI\\WindowHoadon.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-26T06:30:13.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hoadon.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Hoadon.cs",
+              "RelativeDocumentMoniker": "QLHD\\Models\\Hoadon.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Hoadon.cs",
+              "RelativeToolTip": "QLHD\\Models\\Hoadon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:09:24.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240226061613_qlhd_migration.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Migrations\\20240226061613_qlhd_migration.cs",
+              "RelativeDocumentMoniker": "QLHD\\Migrations\\20240226061613_qlhd_migration.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Migrations\\20240226061613_qlhd_migration.cs",
+              "RelativeToolTip": "QLHD\\Migrations\\20240226061613_qlhd_migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:16:14.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Chitiethoadon.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Chitiethoadon.cs",
+              "RelativeDocumentMoniker": "QLHD\\Models\\Chitiethoadon.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\QLHD\\QLHD\\Models\\Chitiethoadon.cs",
+              "RelativeToolTip": "QLHD\\Models\\Chitiethoadon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:09:05.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
