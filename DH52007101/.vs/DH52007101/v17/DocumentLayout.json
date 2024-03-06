@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\cmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\cmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\windowhocvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\windowhocvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\windowhocvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\windowhocvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +19,12 @@
       "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\chocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\windowchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\windowchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\windowhocvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\windowhocvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\qlhvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\qlhvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\models\\lylich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\models\\lylich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\dh52007101\\dh52007101\\windowhocvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C7CF0F88-5F9B-47D1-BC9E-C2BB44464B0C}|DH52007101\\DH52007101.csproj|solutionrelative:dh52007101\\windowhocvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,58 +34,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CMonhoc.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CMonhoc.cs",
-              "RelativeDocumentMoniker": "DH52007101\\Models\\CMonhoc.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CMonhoc.cs",
-              "RelativeToolTip": "DH52007101\\Models\\CMonhoc.cs",
-              "ViewState": "AQIAAAcAAACYZmZmZmZCwAwAAAAzAAAA",
+              "DocumentIndex": 3,
+              "Title": "CHocvien.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CHocvien.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\CHocvien.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CHocvien.cs",
+              "RelativeToolTip": "DH52007101\\Models\\CHocvien.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T07:33:16.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T20:35:42.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DH52007101\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml.cs",
               "RelativeToolTip": "DH52007101\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABIAAABgAAAAAAAwwAAAAAAYAAAA",
+              "ViewState": "AQIAADoAAACAmZmZmdkpwE8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T06:41:04.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "qlhvContext.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
-              "RelativeDocumentMoniker": "DH52007101\\Models\\qlhvContext.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
-              "RelativeToolTip": "DH52007101\\Models\\qlhvContext.cs",
-              "ViewState": "AQIAAAkAAADAzczMzMwowBcAAAB+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T06:10:53.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WindowChinh.xaml",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowChinh.xaml",
-              "RelativeDocumentMoniker": "DH52007101\\WindowChinh.xaml",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowChinh.xaml",
-              "RelativeToolTip": "DH52007101\\WindowChinh.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-25T08:46:03.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T20:26:31.928Z"
             },
             {
               "$type": "Document",
@@ -112,70 +69,44 @@
               "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\App.xaml",
               "RelativeToolTip": "DH52007101\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-25T08:44:59.53Z",
+              "WhenOpened": "2024-03-03T20:17:18.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Lylich.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lylich.cs",
-              "RelativeDocumentMoniker": "DH52007101\\Models\\Lylich.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\Lylich.cs",
-              "RelativeToolTip": "DH52007101\\Models\\Lylich.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAnAAAA",
+              "DocumentIndex": 5,
+              "Title": "qlhvContext.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
+              "RelativeDocumentMoniker": "DH52007101\\Models\\qlhvContext.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\qlhvContext.cs",
+              "RelativeToolTip": "DH52007101\\Models\\qlhvContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAywBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T08:44:12.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T20:15:09.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CHocvien.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CHocvien.cs",
-              "RelativeDocumentMoniker": "DH52007101\\Models\\CHocvien.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\Models\\CHocvien.cs",
-              "RelativeToolTip": "DH52007101\\Models\\CHocvien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "WindowHocvien.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml.cs",
+              "RelativeDocumentMoniker": "DH52007101\\WindowHocvien.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml.cs",
+              "RelativeToolTip": "DH52007101\\WindowHocvien.xaml.cs",
+              "ViewState": "AQIAAA4AAAAgmpmZmTkxwE8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T08:44:01.824Z",
+              "WhenOpened": "2024-03-03T19:21:07.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DH52007101\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\MainWindow.xaml",
-              "RelativeToolTip": "DH52007101\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-25T08:42:53.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "WindowHocvien.xaml",
               "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml",
               "RelativeDocumentMoniker": "DH52007101\\WindowHocvien.xaml",
               "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml",
               "RelativeToolTip": "DH52007101\\WindowHocvien.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-25T08:42:28.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WindowHocvien.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml.cs",
-              "RelativeDocumentMoniker": "DH52007101\\WindowHocvien.xaml.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DH52007101\\DH52007101\\WindowHocvien.xaml.cs",
-              "RelativeToolTip": "DH52007101\\WindowHocvien.xaml.cs",
-              "ViewState": "AQIAABIAAACgZWZmZoYwwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T08:42:25.01Z",
+              "WhenOpened": "2024-03-03T19:20:56Z",
               "EditorCaption": ""
             }
           ]

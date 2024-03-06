@@ -21,5 +21,15 @@ namespace QLHD.ModelVM {
                 Dongia = double.Parse(x.Dongia)
             };
         }
+
+        public static HanghoaVM chuyendoi(Hanghoa x) {
+            if (x == null) return null;
+            return new HanghoaVM {
+                Mahang = x.Mahang,
+                Tenhang = x.Tenhang,
+                Dvt = x.Dvt,
+                Dongia = x.Dongia.ToString()
+            };
+        }
     }
 }

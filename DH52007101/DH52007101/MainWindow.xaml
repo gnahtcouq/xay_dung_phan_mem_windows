@@ -30,7 +30,7 @@
             <TextBox Grid.Row="0" Grid.Column="2" Height="25" Text="{Binding Msmh}"/>
             <TextBox Grid.Row="1" Grid.Column="2" Height="25" Text="{Binding Tenmh}"/>
             <TextBox Grid.Row="2" Grid.Column="2" Height="25" Text="{Binding Sotiet}"/>
-            <Button Grid.Row="1" Grid.Column="4" Content="Thêm" x:Name="btnThem" Click="btnThem_Click"/>
+            <Button Grid.Row="1" Grid.Column="4" Content="Thêm" x:Name="btnThem"/>
         </Grid>
         <Label Content="Danh sách môn học" FontSize="12" FontWeight="Bold"/>
         <DataGrid x:Name="dg" AutoGenerateColumns="False" SelectedValuePath="Msmh" LoadingRowDetails="dg_LoadingRowDetails">

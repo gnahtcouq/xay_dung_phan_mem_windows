@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DH52007101"
         mc:Ignorable="d"
-        Title="WindowHocvien" Height="450" Width="800">
+        Title="WindowHocvien" Height="450" Width="800" Loaded="Window_Loaded">
     <StackPanel>
         <Label Content="Quản lý học viên" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold"/>
         <Grid x:Name="gridHocvien" DataContext="{StaticResource rsHocvien}">
@@ -36,11 +36,75 @@
 
             <TextBox Grid.Row="0" Grid.Column="2" Height="25" Text="{Binding Mshv}"/>
             <TextBox Grid.Row="1" Grid.Column="2" Height="25" Text="{Binding Tenhv}"/>
-            <DatePicker Grid.Row="2" Grid.Column="2" Height="25"/>
-            <ComboBox Grid.Row="3" Grid.Column="2" Height="25"/>
-            <ComboBox Grid.Row="4" Grid.Column="2" Height="25"/>
-            <TextBox Grid.Row="5" Grid.Column="2" Height="25" Text="{Binding Tenlop}"/>
-            <Button Grid.Row="1" Grid.Column="4" Content="Thêm" x:Name="btnThem"/>
+            <DatePicker Grid.Row="2" Grid.Column="2" Height="25" SelectedDate="{Binding Ngaysinh}"/>
+            <ComboBox Grid.Row="3" Grid.Column="2" Height="25" ItemsSource="{StaticResource rsPhai}" SelectedValuePath="key" DisplayMemberPath="value" SelectedValue="{Binding Phai}"/>
+            <ComboBox Grid.Row="4" Grid.Column="2" Height="25" x:Name="cmbMalop" SelectedValuePath="{Binding Malop}"  DisplayMemberPath="Malop" SelectedValue="{Binding Malop}"/>
+            <TextBox Grid.Row="5" Grid.Column="2" Height="25" IsReadOnly="True" Text="{Binding ElementName=cmbMalop, Path=SelectedItem.Tenlop}"/>
+            <Button Grid.Row="1" Grid.Column="4" Content="Thêm" x:Name="btnThem" Click="btnThem_Click"/>
         </Grid>
+
+        <Label Content="Danh sách học viên" FontSize="12" FontWeight="Bold"/>
+        <DataGrid x:Name="dg" AutoGenerateColumns="False" SelectedValuePath="Mshv" LoadingRowDetails="dg_LoadingRowDetails">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã số" Binding="{Binding Mshv}"/>
+                <DataGridTextColumn Header="Tên học viên" Binding="{Binding Tenhv}"/>
+                <DataGridTextColumn Header="Ngày sinh" Binding="{Binding Ngaysinh}"/>
+                <DataGridTextColumn Header="Phái" Binding="{Binding Phai}"/>
+                <DataGridTextColumn Header="Mã lớp" Binding="{Binding Malop}"/>
+                <DataGridTextColumn Header="Tên lớp" Binding="{Binding Tenlop}"/>
+                <DataGridTemplateColumn Header="Tác vụ" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Xoá" x:Name="btnXoa" Click="btnXoa_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+            // Sửa
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Expander>
+                        <StackPanel>
+                            <Label Content="Form sửa học viên" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                            <Grid x:Name="gridHocvien" DataContext="{StaticResource rsHocvien}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="1.5*"/>
+                                    <ColumnDefinition Width="4*"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Mã số học viên"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Tên học viên"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Ngày sinh"/>
+                                <TextBlock Grid.Row="3" Grid.Column="1" Text="Phái"/>
+                                <TextBlock Grid.Row="4" Grid.Column="1" Text="Mã lớp"/>
+                                <TextBlock Grid.Row="5" Grid.Column="1" Text="Tên lớp"/>
+
+                                <TextBox Grid.Row="0" Grid.Column="2" Height="25" Text="{Binding Mshv}"/>
+                                <TextBox Grid.Row="1" Grid.Column="2" Height="25" Text="{Binding Tenhv}"/>
+                                <DatePicker Grid.Row="2" Grid.Column="2" Height="25" SelectedDate="{Binding Ngaysinh}"/>
+                                <ComboBox Grid.Row="3" Grid.Column="2" Height="25" ItemsSource="{StaticResource rsPhai}" SelectedValuePath="key" DisplayMemberPath="value" SelectedValue="{Binding Phai}"/>
+                                <ComboBox Grid.Row="4" Grid.Column="2" Height="25" x:Name="cmbMalop" SelectedValuePath="{Binding Malop}"  DisplayMemberPath="Malop" SelectedValue="{Binding Malop}"/>
+                                <TextBox Grid.Row="5" Grid.Column="2" Height="25" IsReadOnly="True" Text="{Binding ElementName=cmbMalop, Path=SelectedItem.Tenlop}"/>
+                                <Button Grid.Row="1" Grid.Column="4" Content="Sửa" x:Name="btnSua" Click="btnSua_Click"/>
+                            </Grid>
+                        </StackPanel>
+                    </Expander>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
     </StackPanel>
 </Window>

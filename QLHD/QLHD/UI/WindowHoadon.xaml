@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QLHD.UI"
         mc:Ignorable="d"
-        Title="WindowHoadon" Height="450" Width="800">
+        Title="WindowHoadon" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        
+        <Expander Header="Danh sách hoá đơn">
+            <DataGrid x:Name="dgHoadon" AutoGenerateColumns="False" LoadingRowDetails="dgHoadon_LoadingRowDetails">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Số hoá đơn" Binding="{Binding Sohd}"/>
+                    <DataGridTextColumn Header="Số hoá đơn" Binding="{Binding Ngaylaphd}"/>
+                    <DataGridTextColumn Header="Tên khách hàng" Binding="{Binding Tenkh}"/>
+                </DataGrid.Columns>
+
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate>
+                        <Expander Header="Chi tiết hoá đơn">
+                            <StackPanel>
+
+                            </StackPanel>
+                        </Expander>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
+            </DataGrid>
+        </Expander>
+
     </Grid>
 </Window>

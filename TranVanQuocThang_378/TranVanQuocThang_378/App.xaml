@@ -1,0 +1,10 @@
+﻿<Application x:Class="TranVanQuocThang_378.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TranVanQuocThang_378"
+             xmlns:localVM="clr-namespace:TranVanQuocThang_378.ModelVM"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <localVM:SachVM x:Key="rsSach"/>
+    </Application.Resources>
+</Application>

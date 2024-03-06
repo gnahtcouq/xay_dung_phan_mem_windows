@@ -9,6 +9,8 @@
         Title="WindowHanghoa" Height="450" Width="800" Loaded="Window_Loaded">
     <Window.CommandBindings>
         <CommandBinding x:Name="lenhThem" Command="localVM:CMyCommands.lenhThem" CanExecute="lenhThem_CanExecute" Executed="lenhThem_Executed"/>
+        <CommandBinding x:Name="lenhXoa" Command="localVM:CMyCommands.lenhXoa" CanExecute="lenhXoa_CanExecute" Executed="lenhXoa_Executed"/>
+        <CommandBinding x:Name="lenhSua" Command="localVM:CMyCommands.lenhSua" CanExecute="lenhSua_CanExecute" Executed="lenhSua_Executed"/>
     </Window.CommandBindings>
     <StackPanel>
         <Label Content="Quản lý hàng hoá" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold"/>
@@ -43,19 +45,19 @@
         </Grid>
 
         <Label Content="Danh sách hàng hoá" FontSize="12" FontWeight="Bold"/>
-        <DataGrid x:Name="dgHanghoa" Margin="10" AutoGenerateColumns="False">
+        <DataGrid x:Name="dgHanghoa" Margin="10" AutoGenerateColumns="False" SelectionChanged="dgHanghoa_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Mã hàng" Binding="{Binding Mahang}"/>
                 <DataGridTextColumn Header="Tên hàng" Binding="{Binding Tenhang}"/>
                 <DataGridTextColumn Header="Đơn vị tính" Binding="{Binding Dvt}"/>
                 <DataGridTextColumn Header="Đơn giá" Binding="{Binding Dongia}"/>
-                <DataGridTemplateColumn Header="Tác vụ" Width="100">
+                <!--<DataGridTemplateColumn Header="Tác vụ" Width="100">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="Xoá" x:Name="btnXoa"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                </DataGridTemplateColumn>-->
             </DataGrid.Columns>
         </DataGrid>
     </StackPanel>
