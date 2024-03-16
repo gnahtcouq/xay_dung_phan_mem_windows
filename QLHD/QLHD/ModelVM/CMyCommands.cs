@@ -10,5 +10,6 @@ namespace QLHD.ModelVM {
         public static RoutedUICommand lenhThem = new RoutedUICommand();
         public static RoutedUICommand lenhXoa = new RoutedUICommand();
         public static RoutedUICommand lenhSua = new RoutedUICommand();
+        public static RoutedUICommand lenhChon = new RoutedUICommand();
     }
 }

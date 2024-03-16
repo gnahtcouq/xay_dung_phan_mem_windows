@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
+      "projectUniqueName": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
       "projectName": "TranVanQuocThang_378",
-      "projectPath": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
+      "projectPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
       "packagesPath": "C:\\Users\\QuocThang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_378\\TranVanQuocThang_378\\obj\\",
+      "outputPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\TranVanQuocThang_378\\TranVanQuocThang_378\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

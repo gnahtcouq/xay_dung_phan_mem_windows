@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OUwdXDK6PV5fYrLAnvSCuou7n3XLRIPfVtMaaoKhVjL1N53fa/xsDR4kLFmbLYMUwP8rA/2Oo24K9Wb7S3+iqw==",
+  "dgSpecHash": "saup1+mE05XLvJHCR1HaX2QfVFBkEGD9YbmKC6GC0dcjCHsrC4X45N8h4w5t4OLVppYH6s8E/wCJjv38ssgyCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
+  "projectFilePath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\TranVanQuocThang_378\\TranVanQuocThang_378\\TranVanQuocThang_378.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QuocThang\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\QuocThang\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
