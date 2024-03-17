@@ -3,12 +3,9 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace WebAPISach.Models
-{
-    public partial class Tacgium
-    {
-        public Tacgium()
-        {
+namespace WebAPISach.Models {
+    public partial class Tacgium {
+        public Tacgium() {
             ChitietSachTacgia = new HashSet<ChitietSachTacgium>();
         }
 

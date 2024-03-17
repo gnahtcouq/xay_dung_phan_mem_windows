@@ -10,46 +10,33 @@
     <Window.CommandBindings>
         <CommandBinding x:Name="lenhThem" Command="localVM:CMyCommands.lenhThem" CanExecute="lenhThem_CanExecute" Executed="lenhThem_Executed"/>
     </Window.CommandBindings>
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Expander Header="Form nhập sách" Grid.Row="0">
-            <GroupBox>
-                <StackPanel>
-                    <TextBlock Text="Chọn nhà xuất bản" FontWeight="Bold" Margin="5"/>
-                    <StackPanel>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
+    <StackPanel>
+        <Expander Header="Form nhập sách">
+            <StackPanel>
+                <Grid Margin="5,5" x:Name="gridCTNXB" DataContext="{StaticResource rsNXB}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Mã số"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Tên nhà xuất bản"/>
+                    <TextBlock Grid.Row="0" Grid.Column="2" Text="Địa chỉ"/>
+                    <TextBlock Grid.Row="0" Grid.Column="3" Text="Số điện thoại"/>
 
-                            <TextBlock Text="Mã số:" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"/>
-                            <TextBlock Text="Tên nhà xuất bản:" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1"/>
-                            <TextBlock Text="Địa chỉ:" VerticalAlignment="Center" Grid.Row="0" Grid.Column="2"/>
-                            <TextBlock Text="Số điện thoại:" VerticalAlignment="Center" Grid.Row="0" Grid.Column="3"/>
-
-                            <TextBox x:Name="textBoxTenNXB" Width="auto" Grid.Row="1" Grid.Column="1"/>
-                            <ComboBox x:Name="comboBoxMaSo" Width="auto" Grid.Row="1" Grid.Column="0"/>
-                            <TextBox x:Name="textBoxDiaChi" Width="auto" Grid.Row="1" Grid.Column="2"/>
-                            <TextBox x:Name="textBoxSoDienThoai" Width="auto" Grid.Row="1" Grid.Column="3"/>
-                        </Grid>
-                    </StackPanel>
-                </StackPanel>
-            </GroupBox>
-
+                    <ComboBox Grid.Row="1" Grid.Column="0" x:Name="cmbManxb" SelectedValuePath="Manxb" DisplayMemberPath="Manxb" SelectedValue="{Binding Manxb}"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" IsReadOnly="True" Text="{Binding ElementName=cmbManxb, Path=SelectedItem.Tennxb}"/>
+                    <TextBox Grid.Row="1" Grid.Column="2" IsReadOnly="True" Text="{Binding ElementName=cmbManxb, Path=SelectedItem.Diachi}"/>
+                    <TextBox Grid.Row="1" Grid.Column="3" IsReadOnly="True" Text="{Binding ElementName=cmbManxb, Path=SelectedItem.Dienthoai}"/>
+                </Grid>
+            </StackPanel>
         </Expander>
-
-        <Expander Header="Danh sách quyển sách" Grid.Row="1">
+        <Expander Header="Danh sách quyển sách">
             <DataGrid x:Name="dgSach" AutoGenerateColumns="False" LoadingRowDetails="dgSach_LoadingRowDetails">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Mã sách" Binding="{Binding Masach}"/>
@@ -60,5 +47,5 @@
                 </DataGrid.Columns>
             </DataGrid>
         </Expander>
-    </Grid>
+    </StackPanel>
 </Window>

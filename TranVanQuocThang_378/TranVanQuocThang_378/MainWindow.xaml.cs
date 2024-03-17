@@ -33,7 +33,9 @@ namespace TranVanQuocThang_378 {
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
+            qlsachContext db = new qlsachContext();
             hienthiDSSach();
+            cmbManxb.ItemsSource = db.Nhaxuatbans.ToList();
         }
 
         private void dgSach_LoadingRowDetails(object sender, DataGridRowDetailsEventArgs e) {

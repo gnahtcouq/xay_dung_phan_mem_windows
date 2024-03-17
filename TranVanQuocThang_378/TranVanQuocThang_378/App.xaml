@@ -6,5 +6,6 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <localVM:SachVM x:Key="rsSach"/>
+        <localVM:ChitietNxbVM x:Key="rsNXB"/>
     </Application.Resources>
 </Application>

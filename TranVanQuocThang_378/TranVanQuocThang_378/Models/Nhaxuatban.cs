@@ -3,12 +3,9 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace WebAPISach.Models
-{
-    public partial class Nhaxuatban
-    {
-        public Nhaxuatban()
-        {
+namespace WebAPISach.Models {
+    public partial class Nhaxuatban {
+        public Nhaxuatban() {
             Saches = new HashSet<Sach>();
         }
 
