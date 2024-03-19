@@ -3,12 +3,9 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace LeThanhTuan_206.Models
-{
-    public partial class Phieuthue
-    {
-        public Phieuthue()
-        {
+namespace LeThanhTuan_206.Models {
+    public partial class Phieuthue {
+        public Phieuthue() {
             Chitietphieuthues = new HashSet<Chitietphieuthue>();
         }
 

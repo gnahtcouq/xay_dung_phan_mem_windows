@@ -11,73 +11,58 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LeThanhTuan_206
-{
+namespace LeThanhTuan_206 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
+    public partial class MainWindow : Window {
+        public MainWindow() {
             InitializeComponent();
         }
-        private void hienThi()
-        {
+        private void hienThi() {
             csdl_thuephongContext db = new csdl_thuephongContext();
             cmbLoaiPhong.ItemsSource = db.Loaiphongs.Select(e => CLoaIPhong.chuyendoi(e)).ToList();
 
             dgPhong.ItemsSource = db.Phongs.ToList();
         }
-        private void btnXoa_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnXoa_Click(object sender, RoutedEventArgs e) {
             MessageBoxResult result = MessageBox.Show("Ban co chac chan xoa?", "Xac nhan", MessageBoxButton.YesNo, MessageBoxImage.Question);
-            if (result == MessageBoxResult.Yes)
-            {
+            if (result == MessageBoxResult.Yes) {
                 csdl_thuephongContext dc = new csdl_thuephongContext();
                 if (dgPhong.SelectedValue == null) return;
                 string ms = dgPhong.SelectedValue.ToString();
                 Phong mh = dc.Phongs.Find(ms);
                 int flag = 0;
-                foreach (Chitietphieuthue ct in dc.Chitietphieuthues)
-                {
-                    if (ct.Maphong == mh.Maphong)
-                    {
+                foreach (Chitietphieuthue ct in dc.Chitietphieuthues) {
+                    if (ct.Maphong == mh.Maphong) {
                         flag++;
                     }
                 }
-                if (mh != null && flag == 0)
-                {
+                if (mh != null && flag == 0) {
                     dc.Phongs.Remove(mh);
                     dc.SaveChanges();
                     hienThi();
-                }
-                else
-                {
+                } else {
                     MessageBox.Show("Khong the xoa do co trong chi tiet hoa don", "thong bao");
                 }
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("Ban da bam huy", "thong bao");
             }
-            
+
         }
 
-        private void Window_loader(object sender, RoutedEventArgs e)
-        {
+        private void Window_loader(object sender, RoutedEventArgs e) {
             hienThi();
         }
 
-        private void lenhThem_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
+        private void lenhThem_Executed(object sender, ExecutedRoutedEventArgs e) {
 
 
             CPhong s = gridphong.DataContext as CPhong;
 
             csdl_thuephongContext db = new csdl_thuephongContext();
             var maphong = cmbLoaiPhong.SelectedValue;
-            Phong c= CPhong.chuyendoi(s) as Phong;
+            Phong c = CPhong.chuyendoi(s) as Phong;
             c.Maloai = maphong.ToString();
             string maloai = c.Maloai;
             db.Phongs.Add(c);
@@ -85,29 +70,24 @@ namespace LeThanhTuan_206
             hienThi();
         }
 
-        private void lenhThem_CanExecute(object sender, CanExecuteRoutedEventArgs e)
-        {
+        private void lenhThem_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
             csdl_thuephongContext db = new csdl_thuephongContext();
 
             CPhong s = gridphong.DataContext as CPhong;
-            if (s == null || string.IsNullOrEmpty(s.Maphong))
-            {
+            if (s == null || string.IsNullOrEmpty(s.Maphong)) {
                 e.CanExecute = false;
                 return;
             }
             int dg;
-            if (int.TryParse(s.Tinhtrang, out dg) == false)
-            {
+            if (int.TryParse(s.Tinhtrang, out dg) == false) {
                 e.CanExecute = false;
                 return;
             }
-            if (cmbLoaiPhong.SelectedIndex < 0)
-            {
+            if (cmbLoaiPhong.SelectedIndex < 0) {
                 e.CanExecute = false;
                 return;
             }
-            if (db.Phongs.Find(s.Maphong) != null)
-            {
+            if (db.Phongs.Find(s.Maphong) != null) {
                 e.CanExecute = false;
                 return;
             }

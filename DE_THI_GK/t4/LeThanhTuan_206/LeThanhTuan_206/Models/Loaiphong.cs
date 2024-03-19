@@ -3,12 +3,9 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace LeThanhTuan_206.Models
-{
-    public partial class Loaiphong
-    {
-        public Loaiphong()
-        {
+namespace LeThanhTuan_206.Models {
+    public partial class Loaiphong {
+        public Loaiphong() {
             Phongs = new HashSet<Phong>();
         }
 

@@ -1,45 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\",
+  "WorkspaceRootPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\modelvm\\csach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\csach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\modelvm\\ccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\ccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\model\\qlsachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\model\\qlsachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\model\\chitietsachtacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\model\\chitietsachtacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\modelvm\\ctacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\ctacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\model\\tacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\modelvm\\csach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\csach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\modelvm\\ccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\ccommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\model\\chitietsachtacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\model\\chitietsachtacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\modelvm\\ctacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\modelvm\\ctacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\model\\tacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\model\\tacgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\desktop\\t2\\on\\on\\model\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|c:\\users\\quocthang\\documents\\github\\xay_dung_phan_mem_windows\\de_thi_gk\\t2\\on\\on\\model\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D28A81E6-57BC-4FB6-AA11-87C01CD5827E}|on\\on.csproj|solutionrelative:on\\model\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,30 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "qlsachContext.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\qlsachContext.cs",
-              "RelativeDocumentMoniker": "on\\Model\\qlsachContext.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\qlsachContext.cs",
-              "RelativeToolTip": "on\\Model\\qlsachContext.cs",
-              "ViewState": "AQIAABUAAAAASDMzMzPjvxoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:35:50.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CCommands.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CCommands.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CCommands.cs",
               "RelativeDocumentMoniker": "on\\ModelVM\\CCommands.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CCommands.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CCommands.cs",
               "RelativeToolTip": "on\\ModelVM\\CCommands.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T11:34:21.338Z",
               "EditorCaption": ""
@@ -82,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CTacGia.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CTacGia.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CTacGia.cs",
               "RelativeDocumentMoniker": "on\\ModelVM\\CTacGia.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CTacGia.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CTacGia.cs",
               "RelativeToolTip": "on\\ModelVM\\CTacGia.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAA5wB0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Sach.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\Sach.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\Sach.cs",
               "RelativeDocumentMoniker": "on\\Model\\Sach.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\Sach.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\Sach.cs",
               "RelativeToolTip": "on\\Model\\Sach.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,24 +87,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CSach.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CSach.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CSach.cs",
               "RelativeDocumentMoniker": "on\\ModelVM\\CSach.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\ModelVM\\CSach.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\ModelVM\\CSach.cs",
               "RelativeToolTip": "on\\ModelVM\\CSach.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCQAAAAjAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAABIPRAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T11:34:21.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Tacgium.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\Tacgium.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\Tacgium.cs",
               "RelativeDocumentMoniker": "on\\Model\\Tacgium.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\Tacgium.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\Tacgium.cs",
               "RelativeToolTip": "on\\Model\\Tacgium.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,9 +114,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\MainWindow.xaml",
               "RelativeDocumentMoniker": "on\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\MainWindow.xaml",
               "RelativeToolTip": "on\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-17T11:34:21.837Z",
@@ -141,36 +124,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "on\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\MainWindow.xaml.cs",
-              "RelativeToolTip": "on\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:34:21.842Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ChitietSachTacgium.cs",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\ChitietSachTacgium.cs",
-              "RelativeDocumentMoniker": "on\\Model\\ChitietSachTacgium.cs",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\Model\\ChitietSachTacgium.cs",
-              "RelativeToolTip": "on\\Model\\ChitietSachTacgium.cs",
-              "ViewState": "AQIAAAIAAABgZmZmZmYywAgAAAAFAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "on\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\MainWindow.xaml.cs",
+              "RelativeToolTip": "on\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADAAAAAAyJmZmZnRvxkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T11:34:21.846Z",
+              "WhenOpened": "2024-03-17T11:34:21.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "ChitietSachTacgium.cs",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\ChitietSachTacgium.cs",
+              "RelativeDocumentMoniker": "on\\Model\\ChitietSachTacgium.cs",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\Model\\ChitietSachTacgium.cs",
+              "RelativeToolTip": "on\\Model\\ChitietSachTacgium.cs",
+              "ViewState": "AQIAAAIAAABgZmZmZmYywAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T11:34:21.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\App.xaml",
               "RelativeDocumentMoniker": "on\\App.xaml",
-              "ToolTip": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\App.xaml",
+              "ToolTip": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\App.xaml",
               "RelativeToolTip": "on\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-17T11:34:21.851Z",

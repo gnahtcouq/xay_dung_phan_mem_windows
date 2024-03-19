@@ -1,0 +1,88 @@
+﻿<Window x:Class="TranVanQuocThang_108.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TranVanQuocThang_108"
+        xmlns:localVM="clr-namespace:TranVanQuocThang_108.ModelVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Window.CommandBindings>
+        <CommandBinding x:Name="lenhThem"
+        Command="localVM:CCommands.lenhThem"
+        Executed="lenhThem_Executed"
+        CanExecute="lenhThem_CanExecute"/>
+    </Window.CommandBindings>
+    <StackPanel>
+        <Expander Header="Form thêm điện kế">
+            <StackPanel>
+                <Label Content="Thông tin khách hàng" FontWeight="Bold" />
+                <Grid x:Name="gridKH" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.1*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Mã số khách hàng" Grid.Column="0" Grid.Row="0"/>
+                    <TextBlock Text="Họ tên khách hàng" Grid.Column="1" Grid.Row="0"/>
+                    <TextBlock Text="Điện thoại" Grid.Column="2" Grid.Row="0"/>
+                    <TextBlock Text="Địa chỉ" Grid.Column="3" Grid.Row="0"/>
+
+
+                    <ComboBox x:Name="cmbMaSo" Grid.Column="0" Grid.Row="1" 
+                     SelectedValuePath="Makh" DisplayMemberPath="Makh" SelectedValue="{Binding Makh}"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" IsReadOnly="True" Text="{Binding ElementName=cmbMaSo, Path=SelectedItem.Tenkh}"/>
+                    <TextBox Grid.Row="1" Grid.Column="2" IsReadOnly="True" Text="{Binding ElementName=cmbMaSo, Path=SelectedItem.Dienthoai}"/>
+                    <TextBox Grid.Row="1" Grid.Column="3" IsReadOnly="True" Text="{Binding ElementName=cmbMaSo, Path=SelectedItem.Diachi}"/>
+                </Grid>
+
+                <Grid x:Name="gridDK">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Mã điện kế" Grid.Column="0" Grid.Row="0"/>
+                    <TextBlock Text="Ngày đăng ký" Grid.Column="1" Grid.Row="0"/>
+
+                    <TextBox x:Name="txtMaDienKe" Grid.Row="1" Grid.Column="0" Text="{Binding Madk}"/>
+                    <DatePicker x:Name="dpNgayDangKy" Grid.Column="1" Grid.Row="2" SelectedDate="{Binding Ngaydk}"></DatePicker>
+                    <Button Content="Thêm điện kế" Grid.Row="1" Grid.Column="3" Command="localVM:CCommands.lenhThem"/>
+                </Grid>
+            </StackPanel>
+
+
+        </Expander>
+
+        <Expander Header="Danh sách điện kế">
+            <StackPanel>
+                <DataGrid x:Name="dgDienke" AutoGenerateColumns="False" Margin="0 15" SelectedValuePath="Madk">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Mã điện kế" Binding="{Binding Madk}"/>
+                        <DataGridTextColumn Header="Ngày đăng ký" Binding="{Binding Ngaydk}" />
+                        <DataGridTextColumn Header="Mã khách hàng" Binding="{Binding Makh}" />
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Xóa" Name="btnXoa" Click="btnXoa_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</Window>

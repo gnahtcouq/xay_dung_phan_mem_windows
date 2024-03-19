@@ -4,17 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace LeThanhTuan_206.Models
-{
-    public partial class csdl_thuephongContext : DbContext
-    {
-        public csdl_thuephongContext()
-        {
+namespace LeThanhTuan_206.Models {
+    public partial class csdl_thuephongContext : DbContext {
+        public csdl_thuephongContext() {
         }
 
         public csdl_thuephongContext(DbContextOptions<csdl_thuephongContext> options)
-            : base(options)
-        {
+            : base(options) {
         }
 
         public virtual DbSet<Chitietphieuthue> Chitietphieuthues { get; set; }
@@ -23,17 +19,14 @@ namespace LeThanhTuan_206.Models
         public virtual DbSet<Phieuthue> Phieuthues { get; set; }
         public virtual DbSet<Phong> Phongs { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
+            if (!optionsBuilder.IsConfigured) {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Server=localhost;Database=csdl_thuephong;Trusted_Connection=True;");
             }
         }
         //TUNG\\SQLExpress
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
             modelBuilder.Entity<Chitietphieuthue>(entity =>
             {
                 entity.HasKey(e => new { e.Sopt, e.Maphong });

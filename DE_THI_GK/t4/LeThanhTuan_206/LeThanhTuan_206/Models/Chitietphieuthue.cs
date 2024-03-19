@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace LeThanhTuan_206.Models
-{
-    public partial class Chitietphieuthue
-    {
+namespace LeThanhTuan_206.Models {
+    public partial class Chitietphieuthue {
         public string Sopt { get; set; }
         public string Maphong { get; set; }
         public double? Dongia { get; set; }

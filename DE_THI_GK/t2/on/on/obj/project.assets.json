@@ -2014,11 +2014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\on.csproj",
+      "projectUniqueName": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\on.csproj",
       "projectName": "on",
-      "projectPath": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\on.csproj",
+      "projectPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\on.csproj",
       "packagesPath": "C:\\Users\\QuocThang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QuocThang\\Desktop\\t2\\on\\on\\obj\\",
+      "outputPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\t2\\on\\on\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

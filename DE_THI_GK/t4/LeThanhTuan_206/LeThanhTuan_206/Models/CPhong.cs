@@ -4,30 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeThanhTuan_206.Models
-{
-     class CPhong
-    {
+namespace LeThanhTuan_206.Models {
+    class CPhong {
         public string Maphong { get; set; }
         public string Tinhtrang { get; set; }
 
-        public static Phong chuyendoi(CPhong cp)
-        {
+        public static Phong chuyendoi(CPhong cp) {
             if (cp == null)
                 return null;
-            return new Phong
-            {
+            return new Phong {
                 Maphong = cp.Maphong,
                 Tinhtrang = int.Parse(cp.Tinhtrang)
 
             };
         }
-        public static CPhong chuyendoi(Phong p)
-        {
+        public static CPhong chuyendoi(Phong p) {
             if (p == null)
                 return null;
-            return new CPhong
-            {
+            return new CPhong {
                 Maphong = p.Maphong,
                 Tinhtrang = p.Tinhtrang.ToString()
             };
