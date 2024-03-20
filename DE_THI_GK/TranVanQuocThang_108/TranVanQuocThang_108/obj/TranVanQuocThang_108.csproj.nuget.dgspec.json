@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj": {}
+    "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj": {}
   },
   "projects": {
-    "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj": {
+    "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj",
+        "projectUniqueName": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj",
         "projectName": "TranVanQuocThang_108",
-        "projectPath": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj",
+        "projectPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\TranVanQuocThang_108\\TranVanQuocThang_108\\TranVanQuocThang_108.csproj",
         "packagesPath": "C:\\Users\\QuocThang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\QuocThang\\Desktop\\TranVanQuocThang_108\\TranVanQuocThang_108\\obj\\",
+        "outputPath": "C:\\Users\\QuocThang\\Documents\\GitHub\\xay_dung_phan_mem_windows\\DE_THI_GK\\TranVanQuocThang_108\\TranVanQuocThang_108\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
